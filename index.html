@@ -5,18 +5,27 @@
            <title>African History</title>
            
             <style>
+           
                   ul {
-                      list-style-type: none;
-                      margin: 0;
-                      padding: 0;
-                      overflow: hidden;
-                      background-color: #333;
-                      }
-
-                  li {
-                      float: left;
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        overflow: hidden;
+                        background-color: black;
+                        position: fixed;
+                        top: 0;
+                        width:100;
                   }
 
+                  li {
+                        float: left;
+                        border-right:1px solid white;
+                  }
+                  
+                  li: last-child {
+                        border-right: none;
+                  }
+                  
                   li a {
                         display: block;
                         color: white;
@@ -26,13 +35,12 @@
                   }
 
                   li a:hover:not(.active) {
-                                            background-color: #111;
+                        background-color: black;
                   }
 
                   .active {
-                           background-color: #04AA6D;
+                        background-color: white;
                   }
-                  
                   
                   
                   
